@@ -5,6 +5,28 @@ body {
   box-sizing: border-box;
 }
 
+#content-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#reveal-button {
+  padding: 20px 40px;
+  font-size: 50px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+#reveal-button:hover {
+  background-color: #45a049;
+}
+
 header {
   background-color: #4caf50;
   color: white;
