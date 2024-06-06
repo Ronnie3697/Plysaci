@@ -72,3 +72,17 @@ a:hover {
 section {
   text-align: center;
 }
+
+#youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 0 0;
+  background-color: black;
+  color: white;
+  font-size: 5px;
+}
+
+#youtube:hover {
+  color: black;
+}
