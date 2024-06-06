@@ -1,8 +1,15 @@
 body {
   font-family: Arial, sans-serif;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content-toggle {
@@ -14,7 +21,7 @@ body {
 
 #reveal-button {
   padding: 20px 40px;
-  font-size: 50px;
+  font-size: 40px;
   background-color: #4caf50;
   color: white;
   border: none;
@@ -54,8 +61,14 @@ a {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  text-align: center;
+  font-size: 35px;
 }
 
 a:hover {
   background-color: #45a049;
+}
+
+section {
+  text-align: center;
 }
